@@ -8,10 +8,18 @@ function ProductPage() {
     return ( 
       <div className="container">
         <Hero/>
-        <LeftSection/>
+        <LeftSection 
+        imageURL="media\images\kite.png"
+        productName=""
+        productDescription=""
+        tryDemo=""
+        learnMore=""
+        googlePlay=""
+        appStore=""
+        />
         <RightSection/>
         <Universe/>
-        </div>
+        </div> 
 
      );
 }
